@@ -43,7 +43,7 @@ from datetime import datetime
 
 from docopt import docopt
 
-import pandas.io.data as web
+from pandas_datareader import data as web
 from pandas import DataFrame
 
 from numpy.linalg import inv
